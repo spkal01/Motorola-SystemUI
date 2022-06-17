@@ -1,0 +1,41 @@
+package com.google.android.material;
+
+public final class R$style {
+    public static final int CardView = 2132017417;
+    public static final int TextAppearance_AppCompat_Caption = 2132017635;
+    public static final int TextAppearance_Design_CollapsingToolbar_Expanded = 2132017706;
+    public static final int TextAppearance_Design_Tab = 2132017716;
+    public static final int TextAppearance_MaterialComponents_Badge = 2132017751;
+    public static final int Widget_AppCompat_AutoCompleteTextView = 2132018038;
+    public static final int Widget_Design_AppBarLayout = 2132018105;
+    public static final int Widget_Design_BottomNavigationView = 2132018106;
+    public static final int Widget_Design_BottomSheet_Modal = 2132018107;
+    public static final int Widget_Design_CollapsingToolbar = 2132018108;
+    public static final int Widget_Design_FloatingActionButton = 2132018109;
+    public static final int Widget_Design_NavigationView = 2132018110;
+    public static final int Widget_Design_ScrimInsetsFrameLayout = 2132018111;
+    public static final int Widget_Design_TabLayout = 2132018113;
+    public static final int Widget_Design_TextInputEditText = 2132018114;
+    public static final int Widget_Design_TextInputLayout = 2132018115;
+    public static final int Widget_MaterialComponents_Badge = 2132018207;
+    public static final int Widget_MaterialComponents_BottomAppBar = 2132018208;
+    public static final int Widget_MaterialComponents_Button = 2132018216;
+    public static final int Widget_MaterialComponents_CardView = 2132018228;
+    public static final int Widget_MaterialComponents_ChipGroup = 2132018234;
+    public static final int Widget_MaterialComponents_Chip_Action = 2132018230;
+    public static final int Widget_MaterialComponents_CircularProgressIndicator = 2132018235;
+    public static final int Widget_MaterialComponents_CompoundButton_CheckBox = 2132018240;
+    public static final int Widget_MaterialComponents_CompoundButton_RadioButton = 2132018241;
+    public static final int Widget_MaterialComponents_CompoundButton_Switch = 2132018242;
+    public static final int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2132018244;
+    public static final int Widget_MaterialComponents_LinearProgressIndicator = 2132018247;
+    public static final int Widget_MaterialComponents_MaterialButtonToggleGroup = 2132018248;
+    public static final int Widget_MaterialComponents_MaterialCalendar = 2132018249;
+    public static final int Widget_MaterialComponents_NavigationRailView = 2132018271;
+    public static final int Widget_MaterialComponents_ProgressIndicator = 2132018281;
+    public static final int Widget_MaterialComponents_ShapeableImageView = 2132018282;
+    public static final int Widget_MaterialComponents_Slider = 2132018283;
+    public static final int Widget_MaterialComponents_TimePicker_Clock = 2132018305;
+    public static final int Widget_MaterialComponents_Toolbar = 2132018310;
+    public static final int Widget_MaterialComponents_Tooltip = 2132018314;
+}

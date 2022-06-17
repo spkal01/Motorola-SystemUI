@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/left_drag_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/left_area" android:layout_width="@dimen/zz_moto_pill_width" android:layout_height="0dp" android:layout_marginTop="@dimen/zz_moto_pill_drag_vertical_margin" android:layout_marginBottom="@dimen/zz_moto_pill_drag_vertical_margin" android:src="@drawable/pill_drag_background"/>
+</LinearLayout>

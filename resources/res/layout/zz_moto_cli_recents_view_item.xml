@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.systemui.cli.navgesture.view.TaskView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/task_view" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="4dp" android:defaultFocusHighlightEnabled="false">
+    <com.motorola.systemui.cli.navgesture.view.TaskThumbnailView android:id="@+id/snapshot" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0dp"/>
+</com.motorola.systemui.cli.navgesture.view.TaskView>

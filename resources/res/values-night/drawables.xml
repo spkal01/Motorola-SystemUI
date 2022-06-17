@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="prc_qs_customizer_background">@android:color/dim_foreground_light_disabled</drawable>
+</resources>

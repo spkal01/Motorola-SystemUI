@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:background="@drawable/zz_moto_charger_toast_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="28dp" android:paddingVertical="9dp">
+    <ImageView android:id="@+id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:paddingEnd="4dp"/>
+    <TextView android:textSize="14sp" android:textColor="@color/zz_moto_charger_toast_text" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="roboto-regular"/>
+    <ImageView android:id="@+id/right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:paddingStart="@dimen/cli_toast_icon_text_padding"/>
+</LinearLayout>

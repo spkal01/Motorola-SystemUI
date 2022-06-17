@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="16dp" android:width="16dp" android:viewportWidth="118" android:viewportHeight="118">
+    <path android:fillColor="@color/moto_screenshot_btn_color" android:pathData="M85.1,16.4C94.2,16.4 101.6,23.8 101.6,32.9L101.6,46 118,46 118,32.9C118,14.7 103.3,0 85.1,0L72,0 72,16.4 85.1,16.4"/>
+    <path android:fillColor="@color/moto_screenshot_btn_color" android:pathData="M16.4,32.9C16.4,23.8 23.8,16.4 32.9,16.4L46,16.4 46,0 32.9,0C14.7,0 0,14.7 0,32.9L0,46 16.4,46 16.4,32.9"/>
+    <path android:fillColor="@color/moto_screenshot_btn_color" android:pathData="M32.9,101.6C23.8,101.6 16.4,94.2 16.4,85.1L16.4,72 0,72 0,85.1C0,103.3 14.7,118 32.9,118L46,118 46,101.6 32.9,101.6"/>
+    <path android:fillColor="@color/moto_screenshot_btn_color" android:pathData="M59,36C71.7,36 82,46.3 82,59 82,71.7 71.7,82 59,82 46.3,82 36,71.7 36,59 36,46.3 46.3,36 59,36"/>
+    <path android:fillColor="@color/moto_screenshot_btn_color" android:pathData="M98,85C105.2,85 111,90.8 111,98 111,105.2 105.2,111 98,111 90.8,111 85,105.2 85,98 85,90.8 90.8,85 98,85"/>
+</vector>

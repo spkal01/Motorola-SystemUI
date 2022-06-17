@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screenrecord_bar_window_height">78dp</dimen>
+    <dimen name="screenrecord_camera_big_height">110dp</dimen>
+    <dimen name="screenrecord_camera_height">86dp</dimen>
+    <dimen name="screenrecord_icon_size">60dp</dimen>
+    <dimen name="screenrecord_menu_line_height">50dp</dimen>
+</resources>

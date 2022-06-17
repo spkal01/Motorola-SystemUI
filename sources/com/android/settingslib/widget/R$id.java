@@ -1,0 +1,46 @@
+package com.android.settingslib.widget;
+
+public final class R$id {
+    public static final int appendix = 2131427501;
+    public static final int banner_dismiss_btn = 2131427538;
+    public static final int banner_icon = 2131427539;
+    public static final int banner_negative_btn = 2131427540;
+    public static final int banner_positive_btn = 2131427541;
+    public static final int banner_subtitle = 2131427542;
+    public static final int banner_summary = 2131427543;
+    public static final int banner_title = 2131427544;
+    public static final int bar_chart_details = 2131427550;
+    public static final int bar_chart_title = 2131427551;
+    public static final int bar_summary = 2131427552;
+    public static final int bar_title = 2131427553;
+    public static final int bar_view = 2131427554;
+    public static final int bar_view1 = 2131427555;
+    public static final int bar_view2 = 2131427556;
+    public static final int bar_view3 = 2131427557;
+    public static final int bar_view4 = 2131427558;
+    public static final int bottom_summary = 2131427588;
+    public static final int button1 = 2131427624;
+    public static final int button2 = 2131427625;
+    public static final int button3 = 2131427626;
+    public static final int button4 = 2131427627;
+    public static final int custom_content = 2131427803;
+    public static final int divider1 = 2131427868;
+    public static final int divider2 = 2131427869;
+    public static final int divider3 = 2131427870;
+    public static final int frame = 2131427999;
+    public static final int icon_view = 2131428102;
+    public static final int illustration_frame = 2131428107;
+    public static final int lottie_view = 2131428255;
+    public static final int middleground_layout = 2131428345;
+    public static final int radio_extra_widget = 2131428687;
+    public static final int radio_extra_widget_container = 2131428688;
+    public static final int settingslib_learn_more = 2131428882;
+    public static final int settingslib_main_switch_bar = 2131428883;
+    public static final int spinner = 2131428923;
+    public static final int summary_container = 2131428969;
+    public static final int switch_text = 2131428974;
+    public static final int top_row = 2131429055;
+    public static final int total_summary = 2131429056;
+    public static final int two_target_divider = 2131429106;
+    public static final int usage_summary = 2131429127;
+}

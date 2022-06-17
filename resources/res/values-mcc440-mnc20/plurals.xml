@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code_with_sim_id">
+        <item quantity="other">%1$sPINが無効です。入力できるのはあと%2$d回です。</item>
+    </plurals>
+</resources>

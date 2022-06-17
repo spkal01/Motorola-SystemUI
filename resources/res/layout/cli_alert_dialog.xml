@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/alert_layout" android:paddingBottom="22dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@+id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:singleLine="true" android:layout_marginHorizontal="24dp"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="18dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/check_box">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ScrollView android:scrollbarTrackVertical="@color/cli_alert_dialog_scroll_bar" android:scrollbarStyle="outsideInset" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="6dp" android:layout_weight="1" android:layout_marginEnd="6dp" android:paddingHorizontal="24dp">
+                        <TextView android:textSize="14sp" android:textColor="@android:color/white" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </ScrollView>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="12dp">
+                        <Button android:textSize="14sp" android:textColor="#ff56c9ff" android:id="@+id/negative_button" android:background="?android:attr/selectableItemBackground" android:padding="14dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48dp" android:minHeight="36dp" android:maxLines="2" android:textAllCaps="false"/>
+                        <Button android:textSize="14sp" android:textColor="#ff56c9ff" android:id="@+id/positive_button" android:background="?android:attr/selectableItemBackground" android:padding="14dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48dp" android:minHeight="36dp" android:maxLines="2" android:textAllCaps="false"/>
+                        <Button android:textSize="14sp" android:textColor="#ff56c9ff" android:id="@+id/neutral_button" android:background="?android:attr/selectableItemBackground" android:padding="14dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48dp" android:minHeight="36dp" android:maxLines="2" android:textAllCaps="false"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <CheckBox android:textSize="12sp" android:textColor="@android:color/white" android:id="@+id/check_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="20dp" android:layout_marginEnd="24dp" android:buttonTint="@android:color/white"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/notify_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageButton android:gravity="center" android:layout_gravity="end" android:id="@+id/dismiss_button" android:background="@drawable/zz_moto_cli_ripple_circle" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.5dp" android:src="@drawable/zz_moto_ic_cli_close" android:contentDescription="@null" android:layout_marginEnd="10dp"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14sp" android:textStyle="italic" android:textColor="#ffff0000" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/notify_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:paddingHorizontal="10dp"/>
+                <TextView android:textSize="14sp" android:textStyle="italic" android:textColor="#ffff0000" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/notify_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:paddingHorizontal="10dp"/>
+                <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:src="@drawable/zz_moto_ic_cli_alert" android:contentDescription="@null"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/emergency_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="10dp" android:layout_weight="1">
+            <com.android.keyguard.EmergencyButton android:textSize="14sp" android:textColor="#ff09d3e2" android:ellipsize="marquee" android:id="@+id/emergency_button" android:background="@drawable/zz_moto_cli_ripple_rounded" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="38dp" android:text="@android:string/volume_music_hint_silent_ringtone_selected" android:singleLine="true" android:textAllCaps="@bool/kg_use_all_caps" android:fontFamily="sans-serif"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

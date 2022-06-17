@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:gravity="center" android:id="@+id/background">
+        <shape android:shape="oval">
+            <size android:height="@dimen/ongoing_appops_dialog_circle_size" android:width="@dimen/ongoing_appops_dialog_circle_size"/>
+            <solid android:color="@color/privacy_chip_background"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@+id/icon" android:height="@dimen/ongoing_appops_dialog_icon_size" android:width="@dimen/ongoing_appops_dialog_icon_size" android:drawable="0x10809d6"/>
+</layer-list>

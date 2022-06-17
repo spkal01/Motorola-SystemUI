@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.StatusBarMobileViewDual xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/mobile_combo_dual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/zz_moto_dual_signal_icon_margin_start">
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/mobile_group" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@+id/mobile_group_slot1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@+id/rat_slot1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/mobile_type_slot1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/mobile_inout_slot1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+            <FrameLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/mobile_signal_slot1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:hasOverlappingRendering="false"/>
+                <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/mobile_roaming_slot1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zz_moto_dual_roaming_icon_margin_start"/>
+            </FrameLayout>
+            <com.android.keyguard.AlphaOptimizedLinearLayout android:layout_gravity="center_vertical" android:id="@+id/rat_slot1_vzw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp">
+                <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mobile_type_slot1_vzw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@+id/mobile_group_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="horizontal" android:id="@+id/rat_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/mobile_type_slot2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/mobile_inout_slot2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+            <FrameLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/mobile_signal_slot2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:hasOverlappingRendering="false"/>
+                <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/mobile_roaming_slot2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zz_moto_dual_roaming_icon_margin_start"/>
+            </FrameLayout>
+            <com.android.keyguard.AlphaOptimizedLinearLayout android:layout_gravity="center_vertical" android:id="@+id/rat_slot2_vzw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp">
+                <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mobile_type_slot2_vzw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </com.android.keyguard.AlphaOptimizedLinearLayout>
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+    </com.android.keyguard.AlphaOptimizedLinearLayout>
+</com.android.systemui.statusbar.StatusBarMobileViewDual>

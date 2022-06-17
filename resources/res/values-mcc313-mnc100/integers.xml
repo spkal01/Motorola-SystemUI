@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_low_signal_threshold_val">-108</integer>
+</resources>

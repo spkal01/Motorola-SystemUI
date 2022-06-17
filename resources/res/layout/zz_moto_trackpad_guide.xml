@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/left_arrow" android:layout_width="@dimen/trackpad_guide_tip_arrow_width" android:layout_height="@dimen/trackpad_guide_tip_arrow_height"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/zz_moto_trackpad_guide_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/trackpad_guide_padding_horizontal">
+        <TextView android:textSize="@dimen/trackpad_guide_main_text_size" android:textColor="@color/trackpad_guide_text_color" android:gravity="start" android:layout_gravity="start" android:id="@+id/text" android:paddingTop="@dimen/trackpad_guide_main_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zz_moto_trackpad_guide_main_text"/>
+        <TextView android:textSize="@dimen/trackpad_guide_close_text_size" android:textColor="@color/trackpad_guide_text_color" android:gravity="start" android:layout_gravity="end" android:id="@+id/close" android:paddingTop="@dimen/trackpad_guide_close_text_padding_top" android:paddingBottom="@dimen/trackpad_guide_close_text_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zz_moto_trackpad_guide_close_text" android:paddingStart="@dimen/trackpad_guide_close_text_padding_left"/>
+    </LinearLayout>
+    <View android:id="@+id/arrow" android:layout_width="@dimen/trackpad_guide_tip_arrow_width" android:layout_height="@dimen/trackpad_guide_tip_arrow_height"/>
+</merge>

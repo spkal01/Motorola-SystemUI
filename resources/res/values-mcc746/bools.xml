@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_gprs_attach_icon_displayable">true</bool>
+    <bool name="config_hspap_data_distinguishable">true</bool>
+    <bool name="config_show_both_wifi_and_mobile_network">true</bool>
+</resources>

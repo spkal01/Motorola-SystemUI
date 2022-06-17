@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/status_bar_setting_title">
+    <SwitchPreference android:title="@string/battery_percentage" android:key="battery_pct"/>
+    <SwitchPreference android:title="@string/internet_speed_title" android:key="internet_speed"/>
+    <SwitchPreference android:title="@string/show_notification_icons_title" android:key="notification_icons"/>
+    <Preference android:title="@string/system_icons_title" android:key="system_icons" android:summary="@string/system_icons_summary" android:fragment="com.motorola.systemui.statusbar.settings.SystemIconsSettingFragment"/>
+</PreferenceScreen>

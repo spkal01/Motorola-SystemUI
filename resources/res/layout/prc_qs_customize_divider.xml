@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/zz_moto_prc_customizer_divider_padding_top" android:paddingBottom="@dimen/zz_moto_prc_customizer_divider_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/prc_qs_customize_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/zz_moto_prc_divider_width"/>
+    <TextView android:textAppearance="@style/Prc.TextAppearance.QSEdit" android:gravity="center" android:id="@android:id/title" android:paddingTop="@dimen/zz_moto_prc_customizer_divider_text_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/drag_to_add_tiles"/>
+</LinearLayout>

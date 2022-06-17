@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/parentPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="?android:attr/textColorPrimary" android:id="@+id/title" android:paddingLeft="24dp" android:paddingTop="18dp" android:paddingRight="24dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="google-sans-medium" android:textAlignment="viewStart"/>
+    <TextView android:textSize="16sp" android:textColor="?android:attr/textColorPrimary" android:id="@+id/message" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="roboto-regular" android:textAlignment="viewStart"/>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8dp" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/learnMore" android:visibility="gone" style="@style/USBContaminant.UserAction"/>
+        <TextView android:id="@+id/enableUsb" android:visibility="gone" style="@style/USBContaminant.UserAction"/>
+        <TextView android:layout_gravity="end" android:id="@+id/gotIt" android:paddingRight="16dp" android:layout_width="wrap_content" style="@style/USBContaminant.UserAction"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.screenrecord.CircleFrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cfl_camera_preview" android:paddingTop="@dimen/screenrecord_camera_padding" android:paddingBottom="@dimen/screenrecord_camera_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/screenrecord_camera_padding" android:paddingEnd="@dimen/screenrecord_camera_padding">
+    <ImageView android:id="@+id/camera_off_img" android:layout_width="@dimen/screenrecord_camera_height" android:layout_height="@dimen/screenrecord_camera_height" android:scaleType="centerCrop"/>
+    <TextureView android:id="@+id/tv_camera_preview" android:layout_width="@dimen/screenrecord_camera_height" android:layout_height="@dimen/screenrecord_camera_height"/>
+</com.android.systemui.screenrecord.CircleFrameLayout>

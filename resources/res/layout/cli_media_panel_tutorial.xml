@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.systemui.cli.media.CliMediaTutorialLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cli_media_panel_tutorial" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/cli_education_circle" android:layout_width="54px" android:layout_height="54px"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/upward_triangle" android:layout_width="36px" android:layout_height="15px" android:layout_marginTop="8px"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/zz_cli_media_panel_education_bg" android:padding="25px" android:layout_width="450px" android:layout_height="wrap_content">
+        <TextView android:textSize="27px" android:textColor="@android:color/white" android:id="@+id/tutorial_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:alpha="0.7"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/tutorial_close" android:layout_width="45px" android:layout_height="45px" android:src="@drawable/zz_cli_education_close" android:alpha="0.7" android:layout_marginStart="10px"/>
+    </LinearLayout>
+</com.motorola.systemui.cli.media.CliMediaTutorialLayout>

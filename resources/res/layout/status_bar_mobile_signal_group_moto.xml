@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.StatusBarMobileView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/mobile_combo" android:layout_width="wrap_content" android:layout_height="match_parent" android:autoMirrored="true">
+    <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/mobile_group" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/retail_rat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2dp">
+            <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/mobile_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/att_rat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2dp">
+            <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mobile_type_att" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="right" android:id="@+id/mobile_inout_att" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/error_sim_vzw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zz_moto_stat_sys_invalid_sim" android:paddingStart="1dp"/>
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp">
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:hasOverlappingRendering="false"/>
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/mobile_roaming" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/data_connection_roaming" android:layout_marginStart="2dp"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/vzw_rat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp">
+            <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mobile_type_vzw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center_horizontal" android:id="@+id/mobile_inout_vzw" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </com.android.keyguard.AlphaOptimizedLinearLayout>
+</com.android.systemui.statusbar.StatusBarMobileView>

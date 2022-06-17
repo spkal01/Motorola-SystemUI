@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/media_output_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="0dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/prc_media_expanded_horizontal_width" android:layout_height="@dimen/prc_media_expanded_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.036">
+            <com.motorola.systemui.cli.media.CliMediaViewPager android:id="@+id/prc_clock_media_panel" android:layout_width="match_parent" android:layout_height="246dp"/>
+            <com.android.systemui.p006qs.PageIndicator android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/prc_clock_media_panel_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/device_list" android:background="@drawable/prc_media_view_background" android:layout_width="0dp" android:layout_height="246dp" android:layout_weight="1" android:layout_marginStart="20dp" android:paddingHorizontal="0dp" android:paddingVertical="16dp">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/list_result" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

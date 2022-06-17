@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_signal_strength_dropped_below_threshold_handler_package">com.motorola.attvowifi</string>
+</resources>

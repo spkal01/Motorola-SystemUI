@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="prc_fixed_qs_corner_radius">27.5dp</dimen>
+    <dimen name="prc_qs_corner_radius">19dp</dimen>
+    <dimen name="prc_qs_tile_text_size">12sp</dimen>
+    <dimen name="zz_moto_prc_auto_btn_corner_radius">25dp</dimen>
+    <dimen name="zz_moto_prc_auto_btn_width_height">50dp</dimen>
+    <dimen name="zz_moto_prc_brightness_topMargin">12dp</dimen>
+    <dimen name="zz_moto_prc_fixed_qs_tile_background_size">55dp</dimen>
+    <dimen name="zz_moto_prc_footer_view_height">46dp</dimen>
+    <dimen name="zz_moto_prc_footer_view_padding_vertical">18dp</dimen>
+    <dimen name="zz_moto_prc_footer_view_topMargin">0dp</dimen>
+    <dimen name="zz_moto_prc_media_tile_panel_height">204dp</dimen>
+    <dimen name="zz_moto_prc_media_tile_panel_topMargin">82dp</dimen>
+    <dimen name="zz_moto_prc_unfixed_tile_scrollview_topMargin">302dp</dimen>
+    <dimen name="zz_moto_qs_prc_tile_lable_margin_top">7dp</dimen>
+    <dimen name="zz_moto_qs_tile_margin_horizontal">19.2dp</dimen>
+    <dimen name="zz_moto_qs_tile_margin_vertical">19.2dp</dimen>
+</resources>

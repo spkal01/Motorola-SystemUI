@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="battery_button_height_fraction">10.5%</fraction>
+    <fraction name="battery_subpixel_smoothing_left">0%</fraction>
+    <fraction name="battery_subpixel_smoothing_right">0%</fraction>
+    <fraction name="bt_battery_button_height_fraction">7.8%</fraction>
+    <fraction name="bt_battery_ratio_fraction">35%</fraction>
+    <fraction name="bt_battery_scale_fraction">75%</fraction>
+    <fraction name="config_one_handed_offset">40%</fraction>
+    <fraction name="config_pipShortestEdgePercent">40%</fraction>
+    <fraction name="controls_dimmed_alpha">40%</fraction>
+    <fraction name="controls_toggle_bg_intensity">5%</fraction>
+    <fraction name="lb_browse_header_unselect_alpha">50%</fraction>
+    <fraction name="lb_browse_rows_scale">80%</fraction>
+    <fraction name="lb_focus_zoom_factor_large">117.9993%</fraction>
+    <fraction name="lb_focus_zoom_factor_medium">113.9984%</fraction>
+    <fraction name="lb_focus_zoom_factor_small">109.9976%</fraction>
+    <fraction name="lb_focus_zoom_factor_xsmall">105.9998%</fraction>
+    <fraction name="lb_search_bar_speech_orb_max_level_zoom">143.9972%</fraction>
+    <fraction name="lb_search_orb_focused_zoom">119.9982%</fraction>
+    <fraction name="lb_view_active_level">0%</fraction>
+    <fraction name="lb_view_dimmed_level">60%</fraction>
+    <fraction name="zz_moto_prc_brightness_width_precentage">74%</fraction>
+    <fraction name="zz_moto_prc_customizer_view_width_precentage">55%</fraction>
+    <fraction name="zz_moto_prc_divider_height_precentage">70%</fraction>
+    <fraction name="zz_moto_prc_divider_marginStart_precentage">41%</fraction>
+    <fraction name="zz_moto_prc_footer_view_marginStart_precentage">43%</fraction>
+    <fraction name="zz_moto_prc_footer_view_width_precentage">48.5%</fraction>
+    <fraction name="zz_moto_prc_media_tile_panel_aspect_ratio">48%</fraction>
+    <fraction name="zz_moto_prc_media_tile_panel_width_precentage">40%</fraction>
+    <fraction name="zz_moto_prc_unfixed_tile_scrollview_height_precentage">58%</fraction>
+    <fraction name="zz_moto_prc_unfixed_tile_scrollview_marginStart_precentage">42%</fraction>
+    <fraction name="zz_moto_prc_unfixed_tile_scrollview_width_precentage">51%</fraction>
+</resources>

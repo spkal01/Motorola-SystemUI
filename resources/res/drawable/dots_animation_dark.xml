@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="true">
+    <item android:duration="100" android:drawable="@drawable/edge_pill_dot_resting_dark"/>
+    <item android:duration="100" android:drawable="@drawable/edge_pill_dot_touch_dark"/>
+    <item android:duration="100" android:drawable="@drawable/edge_pill_dot_resting_dark"/>
+</animation-list>

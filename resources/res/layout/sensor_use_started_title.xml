@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="?android:attr/listPreferredItemPaddingStart" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+        <ImageView android:id="@+id/sensor_use_camera_icon" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="0x10809d6" android:tint="?android:attr/colorAccent"/>
+        <ImageView android:id="@+id/sensor_use_microphone_icon" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="0x10809db" android:tint="?android:attr/colorAccent"/>
+    </LinearLayout>
+    <com.android.internal.widget.DialogTitle android:id="@+id/sensor_use_started_title_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@style/TextAppearance.DeviceDefault.WindowTitle"/>
+</LinearLayout>

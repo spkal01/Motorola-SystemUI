@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enable_activity_on_wide_statusbar_icons">true</bool>
+</resources>

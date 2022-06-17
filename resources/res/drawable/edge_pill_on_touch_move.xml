@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape>
+            <padding android:left="2.75px" android:top="2.75px" android:right="2.75px" android:bottom="2.75px"/>
+            <solid android:color="#00000000"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="2.75px" android:top="2.75px" android:right="2.75px" android:bottom="2.75px"/>
+            <solid android:color="#0d000000"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="2.75px" android:top="2.75px" android:right="2.75px" android:bottom="2.75px"/>
+            <solid android:color="#1a000000"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="2.75px" android:top="2.75px" android:right="2.75px" android:bottom="2.75px"/>
+            <solid android:color="#26000000"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="2.75px" android:top="2.75px" android:right="2.75px" android:bottom="2.75px"/>
+            <solid android:color="#33000000"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="2.75px" android:top="2.75px" android:right="2.75px" android:bottom="2.75px"/>
+            <solid android:color="#80000000"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/pill_touch_fill_light"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+</layer-list>

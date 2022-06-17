@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/global_actions_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.globalactions.GlobalActionsFlatLayout android:theme="@style/Theme.SystemUI.QuickSettings" android:orientation="horizontal" android:id="@+id/global_actions_view" android:paddingLeft="@dimen/folio_power_menu_padding" android:paddingRight="@dimen/folio_power_menu_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationZ="@dimen/global_actions_translate"/>
+    </com.android.systemui.globalactions.GlobalActionsFlatLayout>
+</LinearLayout>

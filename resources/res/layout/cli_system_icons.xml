@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/cli_system_icons" android:layout_width="match_parent" android:layout_height="@dimen/cli_status_bar_height" android_layout_gravity="top">
+    <com.android.systemui.CliLockIcon android:id="@+id/cli_locked" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_lock" android:scaleType="center"/>
+    <com.android.systemui.statusbar.phone.StatusIconContainer android:orientation="horizontal" android:id="@+id/cli_statusIcons" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingEnd="@dimen/signal_cluster_battery_padding"/>
+    <com.android.systemui.BatteryMeterView android:id="@+id/cli_battery" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zz_moto_prc_brightness_topMargin">8dp</dimen>
+    <dimen name="zz_moto_prc_footer_view_topMargin">8dp</dimen>
+    <dimen name="zz_moto_prc_media_tile_panel_topMargin">84dp</dimen>
+    <dimen name="zz_moto_prc_unfixed_tile_scrollview_topMargin">84dp</dimen>
+    <dimen name="zz_moto_qs_tile_margin_horizontal">18.6dp</dimen>
+</resources>

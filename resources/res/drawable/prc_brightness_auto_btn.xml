@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?attr/colorControlHighlight">
+    <item android:id="@android:id/mask" android:drawable="@drawable/prc_brightness_auto_btn_mask"/>
+    <item android:id="@+id/background" android:drawable="@drawable/prc_brightness_auto_btn_background_shape"/>
+    <item android:gravity="center" android:id="@+id/auto_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawable="@drawable/prc_brightness_auto_text"/>
+</ripple>

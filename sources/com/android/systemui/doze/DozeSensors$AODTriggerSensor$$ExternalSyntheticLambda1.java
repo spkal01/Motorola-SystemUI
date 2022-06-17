@@ -1,0 +1,15 @@
+package com.android.systemui.doze;
+
+import com.android.systemui.doze.DozeSensors;
+
+public final /* synthetic */ class DozeSensors$AODTriggerSensor$$ExternalSyntheticLambda1 implements Runnable {
+    public final /* synthetic */ DozeSensors.AODTriggerSensor f$0;
+
+    public /* synthetic */ DozeSensors$AODTriggerSensor$$ExternalSyntheticLambda1(DozeSensors.AODTriggerSensor aODTriggerSensor) {
+        this.f$0 = aODTriggerSensor;
+    }
+
+    public final void run() {
+        this.f$0.lambda$updateListening$0();
+    }
+}

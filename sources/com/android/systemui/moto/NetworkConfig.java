@@ -1,0 +1,161 @@
+package com.android.systemui.moto;
+
+import android.content.Context;
+import android.content.res.Resources;
+import com.android.settingslib.mobile.MobileMappings;
+import com.android.systemui.R$bool;
+import com.android.systemui.R$string;
+
+public class NetworkConfig {
+    public boolean differingIconForSimError;
+    public boolean enable1xOverrideDuringCdmaVoiceCall;
+    public boolean enableATTrejectCode;
+    public boolean enableActivityIconOnSB;
+    public boolean enableCustomActivityIconOnQS;
+    public boolean enableCustomizations;
+    public boolean enableEriSounds;
+    public boolean enableFemtocellIndicator;
+    public boolean enableOEM5GApi;
+    public boolean enableWide;
+    public boolean hideActivityIconWhile5G;
+    public boolean hideLtePlus;
+    public boolean hspaDataDistinguishable;
+    public boolean hspapDataDistinguishable;
+    public boolean isCellBroadcastSupported;
+    public MobileMappings.Config mConfig;
+    public boolean mConfigEnableEriSounds;
+    public boolean mConfigEnableFemtocellIndicator;
+    public boolean mConfigShowCarrierAggregationIfFasterThan20Mhz;
+    public String networkNameDefault;
+    public String networkNameSeparator;
+    public boolean networkNameShortFormSupported;
+    public boolean networkNameSpnHasPriority;
+    public String operatorName;
+    public boolean roamingIndicationDisabled;
+    public boolean show4GForHspap;
+    public boolean show4gForLte;
+    public boolean showAirplaneModeForWFC;
+    public boolean showAtLeast3G;
+    public boolean showAttRat;
+    public boolean showBothWifiAndMobileNetwork;
+    public boolean showDataDisabledIcon;
+    public boolean showDisableRatWhenDataDisconnected;
+    public boolean showDisableRatWhenRoamingDataOff;
+    public boolean showEPDGIndicator;
+    public boolean showExclamationMarked;
+    public boolean showNoIconDuringCdmaVoiceCall;
+    public boolean showSeparatedSignalBars;
+    public boolean showVzwRat;
+    public boolean showVzwSignalIcon;
+
+    public NetworkConfig() {
+        this.enableCustomizations = false;
+        this.enableWide = false;
+        this.hspapDataDistinguishable = false;
+        this.differingIconForSimError = false;
+        this.operatorName = "";
+        this.showDataDisabledIcon = false;
+        this.roamingIndicationDisabled = false;
+        this.enableEriSounds = false;
+        this.enableFemtocellIndicator = false;
+        this.showSeparatedSignalBars = false;
+        this.showBothWifiAndMobileNetwork = false;
+        this.networkNameDefault = "";
+        this.networkNameSeparator = "";
+        this.networkNameShortFormSupported = false;
+        this.networkNameSpnHasPriority = false;
+        this.isCellBroadcastSupported = false;
+        this.mConfigShowCarrierAggregationIfFasterThan20Mhz = false;
+        this.mConfigEnableEriSounds = false;
+        this.mConfigEnableFemtocellIndicator = false;
+        this.enableActivityIconOnSB = false;
+        this.enableCustomActivityIconOnQS = false;
+        this.enable1xOverrideDuringCdmaVoiceCall = false;
+        this.showNoIconDuringCdmaVoiceCall = false;
+        this.showExclamationMarked = false;
+        this.showEPDGIndicator = false;
+        this.enableATTrejectCode = false;
+        this.showAirplaneModeForWFC = false;
+        this.mConfig = null;
+        this.showAtLeast3G = false;
+        this.show4gForLte = false;
+        this.hideLtePlus = false;
+        this.hspaDataDistinguishable = false;
+        this.hspapDataDistinguishable = false;
+        this.operatorName = "@0";
+        this.showSeparatedSignalBars = false;
+        this.showBothWifiAndMobileNetwork = false;
+        this.roamingIndicationDisabled = false;
+        this.enableEriSounds = false;
+        this.enableFemtocellIndicator = false;
+        this.networkNameSpnHasPriority = false;
+        this.enableWide = false;
+        this.isCellBroadcastSupported = false;
+        this.mConfigShowCarrierAggregationIfFasterThan20Mhz = false;
+        this.enable1xOverrideDuringCdmaVoiceCall = false;
+        this.showNoIconDuringCdmaVoiceCall = false;
+        this.showExclamationMarked = false;
+        this.hideActivityIconWhile5G = false;
+        this.enableOEM5GApi = false;
+        this.showAttRat = false;
+        this.showVzwRat = false;
+        this.showVzwSignalIcon = false;
+        this.showDisableRatWhenRoamingDataOff = false;
+        this.showDisableRatWhenDataDisconnected = false;
+    }
+
+    public static NetworkConfig readConfig(Context context) {
+        NetworkConfig networkConfig = new NetworkConfig();
+        networkConfig.mConfig = MobileMappings.Config.readConfig(context);
+        Resources resources = context.getResources();
+        MobileMappings.Config config = networkConfig.mConfig;
+        networkConfig.showAtLeast3G = config.showAtLeast3G;
+        networkConfig.show4gForLte = config.show4gForLte;
+        networkConfig.hspaDataDistinguishable = config.hspaDataDistinguishable;
+        networkConfig.hideLtePlus = config.hideLtePlus;
+        networkConfig.networkNameSeparator = resources.getString(R$string.status_bar_network_name_separator);
+        networkConfig.networkNameDefault = resources.getString(17040554);
+        networkConfig.networkNameShortFormSupported = resources.getBoolean(17891605);
+        networkConfig.showAirplaneModeForWFC = resources.getBoolean(R$bool.config_show_airplane_when_wfc_unavailable);
+        networkConfig.hideActivityIconWhile5G = resources.getBoolean(R$bool.config_hide_data_activity_icon_while_5g);
+        networkConfig.enableOEM5GApi = resources.getBoolean(R$bool.config_enable_oem_5g_api);
+        boolean z = resources.getBoolean(R$bool.config_enable_carrier_custom_icons);
+        networkConfig.enableCustomizations = z;
+        if (z) {
+            networkConfig.enableWide = resources.getBoolean(R$bool.config_enable_carrier_wide_icons);
+            networkConfig.hspapDataDistinguishable = resources.getBoolean(R$bool.config_hspap_data_distinguishable);
+            networkConfig.showSeparatedSignalBars = resources.getBoolean(R$bool.config_show_separated_bars_in_signal_strength);
+            networkConfig.showBothWifiAndMobileNetwork = resources.getBoolean(R$bool.config_show_both_wifi_and_mobile_network);
+            networkConfig.roamingIndicationDisabled = resources.getBoolean(R$bool.config_roaming_indication_disabled);
+            int i = R$bool.config_enable_eri_sounds;
+            networkConfig.enableEriSounds = resources.getBoolean(i);
+            int i2 = R$bool.config_cdma_femto_icon_display;
+            networkConfig.enableFemtocellIndicator = resources.getBoolean(i2);
+            networkConfig.networkNameSpnHasPriority = resources.getBoolean(R$bool.config_spn_priority_over_plmn);
+            networkConfig.differingIconForSimError = resources.getBoolean(R$bool.config_differing_icon_for_sim_error);
+            networkConfig.isCellBroadcastSupported = true;
+            networkConfig.mConfigShowCarrierAggregationIfFasterThan20Mhz = resources.getBoolean(R$bool.config_show_carrier_aggregation_if_faster_than_20Mhz);
+            networkConfig.showDataDisabledIcon = resources.getBoolean(R$bool.show_data_disabled_icon);
+            networkConfig.enableActivityIconOnSB = resources.getBoolean(R$bool.config_enable_activity_on_wide_statusbar_icons);
+            networkConfig.enableCustomActivityIconOnQS = resources.getBoolean(R$bool.f65x5b052897);
+            networkConfig.enable1xOverrideDuringCdmaVoiceCall = resources.getBoolean(R$bool.config_enable_1x_override_during_cdma_voice_call);
+            networkConfig.show4GForHspap = resources.getBoolean(R$bool.config_show_4g_for_hspap);
+            networkConfig.showNoIconDuringCdmaVoiceCall = resources.getBoolean(R$bool.config_show_no_icon_during_cdma_voice_call);
+            networkConfig.showEPDGIndicator = resources.getBoolean(R$bool.config_show_epdg_indicator);
+            networkConfig.showAttRat = resources.getBoolean(R$bool.zz_moto_config_enable_att_rat);
+            networkConfig.enableATTrejectCode = resources.getBoolean(R$bool.config_show_network_name_blank_line);
+            networkConfig.mConfigEnableEriSounds = resources.getBoolean(i);
+            networkConfig.mConfigEnableFemtocellIndicator = resources.getBoolean(i2);
+            networkConfig.showVzwRat = resources.getBoolean(R$bool.zz_moto_config_enable_vzw_rat);
+            networkConfig.showVzwSignalIcon = resources.getBoolean(R$bool.zz_moto_config_show_vzw_signal_icon);
+            networkConfig.showDisableRatWhenRoamingDataOff = resources.getBoolean(R$bool.config_show_disable_rat_when_roaming_data_off);
+            networkConfig.showDisableRatWhenDataDisconnected = resources.getBoolean(R$bool.config_show_disable_rat_when_data_disconnected);
+        }
+        networkConfig.showExclamationMarked = resources.getBoolean(R$bool.config_show_exclamation_marked);
+        return networkConfig;
+    }
+
+    public String toString() {
+        return "Carrier:" + this.operatorName + "," + "customized:" + this.enableCustomizations + "," + "separated bar:" + this.showSeparatedSignalBars + "," + "showAtLeast3G:" + this.showAtLeast3G + "," + "show4gForLte:" + this.show4gForLte + "," + "enableOEM5GApi:" + this.enableOEM5GApi + "," + "roamingIndicationDisabled:" + this.roamingIndicationDisabled + "," + "enableFemtocellIndicator:" + this.enableFemtocellIndicator + "," + "hideActivityIconWhile5G:" + this.hideActivityIconWhile5G + "," + "showAirplaneModeForWFC:" + this.showAirplaneModeForWFC + "," + "showEPDGIndicator:" + this.showEPDGIndicator + "," + "hideLtePlus:" + this.hideLtePlus;
+    }
+}

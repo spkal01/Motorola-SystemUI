@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<networks xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item app:carrier_id="1187" app:e="E_A_W" app:g="G_A_W" app:h="4G_A_W" app:hspap="4G_A_W" app:lte="4G_LTE_A_W" app:lte_ca="4G_LTE_A_W" app:umts="4G_A_W"/>
+    <item app:carrier_id="1779" app:e="E_A_W" app:g="G_A_W" app:h="4G_A_W" app:hspap="4G_A_W" app:lte="4G_LTE_A_W" app:lte_ca="4G_LTE_A_W" app:umts="4G_A_W"/>
+    <item app:carrier_id="2119" app:e="E_A_W" app:g="G_A_W" app:h="4G_A_W" app:hspap="4G_A_W" app:lte="4G_LTE_A_W" app:lte_ca="4G_LTE_A_W" app:umts="4G_A_W"/>
+    <item app:carrier_id="576" app:h="H+_W"/>
+    <item app:carrier_id="32" app:h="3G+_W"/>
+    <item app:carrier_id="718" app:h="3G+_W" app:lte_ca="4G_W"/>
+    <item app:carrier_id="1403" app:h="H+_W" app:home="home" app:hspap="H+_W" app:umts="H+_W"/>
+    <item app:carrier_id="27" app:g="2G_W" app:h="3G+_W"/>
+    <item app:carrier_id="1670" app:g="2G_W" app:h="H+_W"/>
+    <item app:carrier_id="1" app:h="4G_W" app:home="home" app:hspap="4G_W" app:lte_ca="LTE_W" app:umts="4G_W"/>
+    <item app:carrier_id="1" app:home="roam" app:lte_ca="LTE_W"/>
+    <item app:carrier_id="1839" app:lte="4G_LTE_W" app:lte_ca="4G_LTE_W"/>
+    <item app:carrier_id="1788" app:cdma_1x="3G_W" app:lte_ca="LTE_W"/>
+    <item app:carrier_id="2128" app:cdma_1x="3G_W" app:lte_ca="LTE_W"/>
+    <item app:carrier_id="1951" app:cdma_1x="3G_W" app:lte_ca="LTE_W"/>
+    <item app:carrier_id="1853" app:cdma_1x="3G_W" app:lte_ca="LTE_W"/>
+</networks>

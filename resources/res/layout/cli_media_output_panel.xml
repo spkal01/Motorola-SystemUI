@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.systemui.cli.media.CliMediaOutputRouteLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/media_output_layout" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="match_parent" android:layout_height="24dp" layout="@layout/cli_system_icons"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cli_media_output_header_marginTop" android:layout_marginBottom="@dimen/cli_media_output_header_marginBottom" android:layout_marginHorizontal="@dimen/cli_media_output_panel_marginHorizontal">
+        <ImageView android:id="@+id/media_cover" android:layout_width="@dimen/cli_media_output_title_icon_size" android:layout_height="@dimen/cli_media_output_title_icon_size" android:src="@drawable/ic_cli_media_output_title_icon"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cli_media_output_header_title_marginLeft">
+            <TextView android:textSize="@dimen/cli_media_output_header_title_size" android:textStyle="bold" android:textColor="?android:attr/textColorPrimary" android:id="@+id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:alpha="0.87"/>
+            <TextView android:textSize="@dimen/cli_media_output_header_subtitle_size" android:id="@+id/header_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.54"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@+id/media_device_list" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:layout_weight="1"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:paddingBottom="@dimen/cli_media_output_done_paddingBottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/cli_media_output_header_subtitle_size" android:textColor="@color/cli_media_route_done_color" android:id="@+id/done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_settings_done" style="@android:style/Animation.VoiceInteractionSession"/>
+    </LinearLayout>
+</com.motorola.systemui.cli.media.CliMediaOutputRouteLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.stack.CliEducationView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/education_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/education_card" android:background="@drawable/zz_cli_education_card_bg" android:visibility="gone" android:layout_width="@dimen/cli_row_width" android:layout_height="@dimen/cli_row_min_height" android:layout_marginTop="@dimen/cli_stack_margin_top">
+        <ImageView android:id="@+id/education_card_icon" android:layout_width="65px" android:layout_height="65px" android:layout_marginTop="50px" android:src="@drawable/zz_cli_education_card_icon"/>
+        <TextView android:textSize="32px" android:gravity="center" android:id="@+id/education_card_content" android:layout_width="641px" android:layout_height="wrap_content" android:layout_marginTop="22px" android:text="@string/cli_education_step_two"/>
+        <TextView android:textSize="32px" android:gravity="center" android:id="@+id/education_card_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22px" android:text="@string/cli_education_next"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/education_note_container" android:visibility="gone" android:layout_width="504px" android:layout_height="164px" android:layout_marginTop="277px" android:layout_marginStart="99px">
+        <LinearLayout android:id="@+id/education_note_top" android:background="@drawable/zz_cli_education_tip_bg" android:layout_width="match_parent" android:layout_height="142px" android:paddingStart="38px">
+            <TextView android:textSize="27px" android:id="@+id/education_note_content" android:layout_width="wrap_content" android:layout_height="108px" android:layout_marginTop="31px" android:text="@string/cli_education_step_one"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/education_note_close" android:layout_width="34px" android:layout_height="45px" android:src="@drawable/zz_cli_education_close" android:layout_marginStart="56px"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/education_note_bottom" android:layout_width="45px" android:layout_height="23px" android:layout_marginStart="278px"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/education_swipe_down" android:visibility="gone" android:layout_width="434px" android:layout_height="172px" android:layout_marginTop="68px">
+        <ImageView android:id="@+id/education_swipe_down_top" android:layout_width="45px" android:layout_height="23px" android:layout_marginTop="8px"/>
+        <LinearLayout android:id="@+id/education_swipe_down_bottom" android:background="@drawable/zz_cli_education_tip_bg" android:layout_width="match_parent" android:layout_height="141px" android:paddingStart="38px">
+            <TextView android:textSize="27px" android:layout_gravity="center_vertical" android:id="@+id/education_swipe_down_content" android:layout_width="268px" android:layout_height="72px" android:text="@string/cli_education_swipe_down"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/education_swipe_down_close" android:layout_width="34px" android:layout_height="45px" android:src="@drawable/zz_cli_education_close" android:layout_marginStart="56px"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/education_double_tap" android:visibility="gone" android:layout_width="594px" android:layout_height="172px" android:layout_marginTop="119px">
+        <ImageView android:id="@+id/education_double_tap_top" android:layout_width="45px" android:layout_height="23px" android:layout_marginTop="8px" android:layout_marginStart="513px"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:id="@+id/education_double_tap_bottom" android:background="@drawable/zz_cli_education_tip_bg" android:layout_width="match_parent" android:layout_height="141px" android:paddingStart="38px">
+            <TextView android:textSize="27px" android:layout_gravity="center_vertical" android:id="@+id/education_double_tap_content" android:layout_width="432px" android:layout_height="72px" android:text="@string/cli_education_double_tap"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/education_double_tap_close" android:layout_width="34px" android:layout_height="45px" android:src="@drawable/zz_cli_education_close" android:layout_marginStart="56px"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.android.systemui.statusbar.notification.stack.CliEducationView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.p011wm.shell.sizecompatui.SizeCompatRestartButton xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageButton android:layout_gravity="center" android:id="@+id/size_compat_restart_button" android:layout_width="@dimen/size_compat_button_size" android:layout_height="@dimen/size_compat_button_size" android:src="@drawable/size_compat_restart_button" android:contentDescription="@string/restart_button_description"/>
+</com.android.p011wm.shell.sizecompatui.SizeCompatRestartButton>

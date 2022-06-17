@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.systemui.cli.navgesture.view.RecentsViewContainer xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/recents_container" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/recents_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.motorola.systemui.cli.navgesture.view.RecentsViewContainer>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.systemui.p006qs.QSPrcPanelContainer android:id="@+id/qs_prc_panel_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.android.systemui.p006qs.QSPrcPanel android:layout_gravity="top" android:id="@+id/qs_prc_panel" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/qs_layout_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@+id/auto_btn" android:background="@drawable/prc_brightness_auto_btn" android:layout_width="@dimen/zz_moto_prc_auto_btn_width_height" android:layout_height="@dimen/zz_moto_prc_auto_btn_width_height" style="?android:attr/borderlessButtonStyle"/>
+            </LinearLayout>
+            <include layout="@layout/zz_moto_prc_fixed_tile_panel"/>
+            <View android:id="@+id/qs_prc_divider" android:background="@color/prc_qs_customize_divider_color" android:layout_width="@dimen/zz_moto_prc_divider_width" android:layout_height="wrap_content"/>
+            <com.android.systemui.p006qs.UnfixedPanelScrollView android:id="@+id/prc_qs_tile_scroll_view" android:background="@android:color/transparent" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:importantForAccessibility="no">
+                <com.android.systemui.p006qs.PrcUnfixedTileLayout android:id="@+id/prc_unfixed_qs_panel" android:background="@android:color/transparent" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.android.systemui.p006qs.UnfixedPanelScrollView>
+            <LinearLayout android:gravity="center" android:id="@+id/prc_security_footer_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.android.systemui.p006qs.QSPrcPanel>
+    </com.android.systemui.p006qs.QSPrcPanelContainer>
+    <com.android.systemui.p006qs.QSPanel android:id="@+id/quick_settings_panel" android:background="@android:color/transparent" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@android:id/edit">
+        <include layout="@layout/qs_footer_impl"/>
+    </com.android.systemui.p006qs.QSPanel>
+</FrameLayout>

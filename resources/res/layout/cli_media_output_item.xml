@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cli_media_output_panel_marginHorizontal" android:paddingVertical="@dimen/cli_media_output_panel_paddingVertical">
+    <RelativeLayout android:layout_gravity="center_vertical" android:background="@drawable/ic_cli_media_output_device_icon_bg" android:layout_width="@dimen/cli_media_output_item_device_icon_bg_size" android:layout_height="@dimen/cli_media_output_item_device_icon_bg_size">
+        <ImageView android:id="@+id/media_device_icon" android:layout_width="@dimen/cli_media_output_item_device_icon_size" android:layout_height="@dimen/cli_media_output_item_device_icon_size" android:layout_centerInParent="true" android:alpha="0.87"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/cli_media_output_item_device_name_size" android:textStyle="bold" android:textColor="?android:attr/textColorPrimary" android:gravity="center_vertical" android:id="@+id/media_device_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:alpha="0.87" android:layout_marginStart="@dimen/cli_media_output_item_media_device_name_marginLeft"/>
+        <SeekBar android:id="@+id/media_device_seek_bar" android:paddingTop="@dimen/cli_media_output_item_seekbar_paddingTop" android:layout_width="match_parent" android:layout_height="wrap_content" android:progressTint="@color/cli_media_route_seek_bar_color" android:thumbTint="@color/cli_media_route_seek_bar_color"/>
+    </LinearLayout>
+</LinearLayout>

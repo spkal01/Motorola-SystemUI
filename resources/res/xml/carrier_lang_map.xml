@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" linked="false">
+    <entry key="amxbr">pt-BR
+    </entry>
+    <entry key="amxpr">es-US
+    </entry>
+    <entry key="amxmx">es-US
+    </entry>
+    <entry key="amxcl">es-US
+    </entry>
+    <entry key="amxar">es-US
+    </entry>
+    <entry key="amxla">es-US
+    </entry>
+    <entry key="amxpe">es-US
+    </entry>
+    <entry key="amxco">es-US
+    </entry>
+    <entry key="tefbr">pt-BR
+    </entry>
+    <entry key="tefmx">es-US
+    </entry>
+    <entry key="tefar">es-US
+    </entry>
+    <entry key="tefcl">es-US
+    </entry>
+    <entry key="tefpe">es-US
+    </entry>
+    <entry key="tefco">es-US
+    </entry>
+    <entry key="perar">es-US
+    </entry>
+    <entry key="entcl">es-US
+    </entry>
+    <entry key="iusmx">es-US
+    </entry>
+    <entry key="niibr">pt-BR
+    </entry>
+    <entry key="niicl">es-US
+    </entry>
+    <entry key="niimx">es-US
+    </entry>
+    <entry key="niipe">es-US
+    </entry>
+    <entry key="oibr">pt-BR
+    </entry>
+    <entry key="timbr">pt-BR
+    </entry>
+    <entry key="tigco">es-US
+    </entry>
+    <entry key="retbr">pt-BR
+    </entry>
+    <entry key="retar">es-US
+    </entry>
+    <entry key="retla">es-US
+    </entry>
+    <entry key="retcl">es-US
+    </entry>
+    <entry key="tefla">es-US
+    </entry>
+    <entry key="retla1st">es-US
+    </entry>
+    <entry key="tefunl">es-US
+    </entry>
+    <entry key="tigca">es-US
+    </entry>
+    <entry key="tigca1st">es-US
+    </entry>
+    <entry key="retmx">es-US
+    </entry>
+    <entry key="attmx">es-US
+    </entry>
+    <entry key="womcl">es-US
+    </entry>
+    <entry key="avaco">es-US
+    </entry>
+    <entry key="retpe">es-US
+    </entry>
+    <entry key="openla">es-US
+    </entry>
+    <entry key="opencl">es-US
+    </entry>
+    <entry key="openmx">es-US
+    </entry>
+    <entry key="altmx">es-US
+    </entry>
+    <entry key="openpe">es-US
+    </entry>
+    <entry key="retgb">en-GB
+    </entry>
+    <entry key="retfr">fr-FR
+    </entry>
+    <entry key="retes">es-ES
+    </entry>
+    <entry key="retie">en-GB
+    </entry>
+    <entry key="retde">de-DE
+    </entry>
+    <entry key="vfgb">en-GB
+    </entry>
+    <entry key="vfde">de-DE
+    </entry>
+    <entry key="vffr">fr-FR
+    </entry>
+    <entry key="o2gb">en-GB
+    </entry>
+    <entry key="o2de">de-DE
+    </entry>
+    <entry key="orafr">fr-FR
+    </entry>
+    <entry key="bouyfr">fr-FR
+    </entry>
+    <entry key="eegb">en-GB
+    </entry>
+    <entry key="tescogb">en-GB
+    </entry>
+    <entry key="yoigo">es-ES
+    </entry>
+    <entry key="oraes">es-ES
+    </entry>
+    <entry key="vfit">it-IT
+    </entry>
+    <entry key="vfes">es-ES
+    </entry>
+    <entry key="3gb">en-GB
+    </entry>
+    <entry key="tescoie">en-GB
+    </entry>
+    <entry key="altfr">fr-FR
+    </entry>
+    <entry key="3ie">en-GB
+    </entry>
+    <entry key="altpt">pt-PT
+    </entry>
+    <entry key="timit">it-IT
+    </entry>
+    <entry key="retma">ar-MA
+    </entry>
+    <entry key="windit">it-IT
+    </entry>
+    <entry key="vfhu">hu-HU
+    </entry>
+    <entry key="vfro">ro-RO
+    </entry>
+    <entry key="telhu">hu-HU
+    </entry>
+    <entry key="playpl">pl-PL
+    </entry>
+    <entry key="pluspl">pl-PL
+    </entry>
+    <entry key="dtpl">pl-PL
+    </entry>
+    <entry key="tefes">es-ES
+    </entry>
+    <entry key="retca">en-CA
+    </entry>
+    <entry key="bwaca">en-CA
+    </entry>
+    <entry key="tkpca">en-CA
+    </entry>
+    <entry key="rcica">en-CA
+    </entry>
+    <entry key="wndca">en-CA
+    </entry>
+    <entry key="retin">en-IN
+    </entry>
+    <entry key="retcn">zh-Hans-CN
+    </entry>
+    <entry key="telstra">en-AU
+    </entry>
+    <entry key="vfau">en-AU
+    </entry>
+    <entry key="amzin">en-IN
+    </entry>
+    <entry key="jioin">en-IN
+    </entry>
+    <entry key="airin">en-IN
+    </entry>
+    <entry key="retid">in-ID
+    </entry>
+    <entry key="cmcc">zh-Hans-CN
+    </entry>
+    <entry key="ctcn">zh-Hans-CN
+    </entry>
+    <entry key="cucn">zh-Hans-CN
+    </entry>
+    <entry key="retmm">my-MM
+    </entry>
+    <entry key="gt4gtw">zh-Hant-TW
+    </entry>
+    <entry key="retth">th-TH
+    </entry>
+    <entry key="retru">ru-RU
+    </entry>
+    <entry key="trueth">th-TH
+    </entry>
+    <entry key="smarthk">zh-Hant-HK
+    </entry>
+    <entry key="mobilpk">ur-PK
+    </entry>
+    <entry key="retjp">ja-JP
+    </entry>
+    <entry key="softbank">ja-JP
+    </entry>
+</map>

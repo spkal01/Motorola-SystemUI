@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <scale android:duration="@integer/prc_media_output_animation_duration" android:fromXScale="1" android:toXScale="0.2" android:fromYScale="1" android:toYScale="0.2"/>
+    <alpha android:duration="@integer/prc_media_output_animation_duration" android:fromAlpha="1" android:toAlpha="0"/>
+    <translate android:duration="@integer/prc_media_output_animation_duration" android:fromXDelta="0" android:toXDelta="30%" android:fromYDelta="0" android:toYDelta="0%"/>
+</set>

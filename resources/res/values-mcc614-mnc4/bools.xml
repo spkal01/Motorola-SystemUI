@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enable_activity_on_wide_statusbar_icons">true</bool>
+    <bool name="config_show_carrier_aggregation_if_faster_than_20Mhz">true</bool>
+</resources>

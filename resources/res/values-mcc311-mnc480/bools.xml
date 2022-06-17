@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_enable_oem_5g_api">true</bool>
+    <bool name="config_roaming_indication_disabled">true</bool>
+    <bool name="config_show_airplane_when_wfc_unavailable">true</bool>
+</resources>

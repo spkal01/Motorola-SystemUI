@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cli_keyguard" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/cli_keyguard_clock_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/cli_keyguard_clock_switch"/>
+    <com.motorola.systemui.cli.media.CliMediaViewPager android:id="@+id/cli_clock_media_panel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.android.systemui.p006qs.PageIndicator android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cli_clock_media_panel_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <include layout="@layout/cli_media_panel_tutorial"/>
+    <com.android.systemui.statusbar.phone.NotificationIconContainer android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/carousel_icon_container" android:layout_width="match_parent" android:layout_height="@dimen/cli_carousel_height"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:background="@drawable/cli_toast_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cli_toast_padding_horizontal" android:paddingVertical="@dimen/cli_toast_padding_vertical">
+    <ImageView android:id="@+id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:paddingEnd="@dimen/cli_toast_icon_text_padding"/>
+    <TextView android:textColor="0x106024b" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:paddingStart="@dimen/cli_toast_icon_text_padding"/>
+</LinearLayout>
